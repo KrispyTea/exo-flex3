@@ -8,25 +8,28 @@ header {
     display: flex;
 }
 article {
-background-color: coral;
-height: 700px;
-border-radius: 10px;
-width: 300px;
-margin: 5px
-}
-nav {
-    background-color: cornflowerblue;
+background-color: cornflowerblue;
     height: 700px;
     border-radius: 10px;
-    width: 1300px;
-    margin: 5px
+    flex-grow: 4;
+    margin: 5px;
+    order: 2
+}
+nav {
+    background-color: coral;
+height: 700px;
+border-radius: 10px;
+flex-grow: 1;
+margin: 5px;
+order: 1
 }
 aside {
     background-color: coral;
     height: 700px;
     border-radius: 10px;
-    width: 300px;
-    margin: 5px
+    flex-grow: 1;
+    margin: 5px;
+    order: 3
 }
 footer {
     background-color: blue;
